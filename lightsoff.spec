@@ -1,9 +1,9 @@
-Summary:	Lights Off
+Summary:	GNOME Lights Off game
 Summary(pl.UTF-8):	Gra Lights Off dla GNOME
 Name:		lightsoff
 Version:	3.12.2
 Release:	1
-License:	GPL v2
+License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/lightsoff/3.12/%{name}-%{version}.tar.xz
 # Source0-md5:	c5ae516ea89ba6aec8fe67ee70b1039a
@@ -75,10 +75,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
+%doc NEWS
 %attr(755,root,root) %{_bindir}/lightsoff
 %{_datadir}/appdata/lightsoff.appdata.xml
 %{_datadir}/glib-2.0/schemas/org.gnome.lightsoff.gschema.xml
 %{_datadir}/lightsoff
 %{_desktopdir}/lightsoff.desktop
-%{_iconsdir}/HighContrast/*/*/*.png
-%{_iconsdir}/hicolor/*/*/*.svg
+%{_iconsdir}/HighContrast/*/apps/lightsoff.png
+%{_iconsdir}/hicolor/scalable/apps/lightsoff.svg
