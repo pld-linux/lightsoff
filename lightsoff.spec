@@ -8,7 +8,7 @@ Group:		X11/Applications/Games
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/lightsoff/3.16/%{name}-%{version}.tar.xz
 # Source0-md5:	2137162e040446e182af46da56e02e32
 URL:		https://wiki.gnome.org/Apps/Lightsoff
-BuildRequires:	appdata-tools
+BuildRequires:	appstream-glib-devel
 BuildRequires:	autoconf >= 2.63
 BuildRequires:	automake >= 1:1.11
 BuildRequires:	clutter-devel >= 1.14.0
