@@ -81,4 +81,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/glib-2.0/schemas/org.gnome.lightsoff.gschema.xml
 %{_datadir}/lightsoff
 %{_desktopdir}/lightsoff.desktop
-%{_iconsdir}/hicolor/scalable/apps/*.svg
+%{_iconsdir}/hicolor/scalable/apps/lightsoff.svg
+%{_iconsdir}/hicolor/scalable/apps/lightsoff-symbolic.svg
