@@ -1,12 +1,12 @@
 Summary:	GNOME Lights Off game
 Summary(pl.UTF-8):	Gra Lights Off dla GNOME
 Name:		lightsoff
-Version:	3.16.1.1
+Version:	3.18.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/lightsoff/3.16/%{name}-%{version}.tar.xz
-# Source0-md5:	2137162e040446e182af46da56e02e32
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/lightsoff/3.18/%{name}-%{version}.tar.xz
+# Source0-md5:	f2719b18abd42035b48797fd444066eb
 URL:		https://wiki.gnome.org/Apps/Lightsoff
 BuildRequires:	appstream-glib-devel
 BuildRequires:	autoconf >= 2.63
