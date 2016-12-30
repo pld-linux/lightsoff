@@ -14,7 +14,6 @@ BuildRequires:	automake >= 1:1.11
 BuildRequires:	clutter-devel >= 1.14.0
 BuildRequires:	clutter-gtk-devel >= 1.5.0
 BuildRequires:	glib2-devel >= 1:2.38.0
-BuildRequires:	gnome-common
 BuildRequires:	gtk+3-devel >= 3.14.0
 BuildRequires:	intltool >= 0.50.0
 BuildRequires:	librsvg-devel >= 1:2.32.0
@@ -22,7 +21,7 @@ BuildRequires:	pkgconfig
 BuildRequires:	vala >= 2:0.22.0
 BuildRequires:	yelp-tools
 Requires(post,postun):	gtk-update-icon-cache
-Requires(post,postun):	glib2 >= 1:2.26.0
+Requires(post,postun):	glib2 >= 1:2.38.0
 Requires:	clutter >= 1.14.0
 Requires:	clutter-gtk >= 1.5.0
 Requires:	glib2 >= 1:2.38.0
