@@ -1,19 +1,19 @@
 Summary:	GNOME Lights Off game
 Summary(pl.UTF-8):	Gra Lights Off dla GNOME
 Name:		lightsoff
-Version:	3.36.0
+Version:	3.38.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/lightsoff/3.36/%{name}-%{version}.tar.xz
-# Source0-md5:	5f9aa92c606b6765253f8f6e0594439e
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/lightsoff/3.38/%{name}-%{version}.tar.xz
+# Source0-md5:	59094227f9d7269d31f0e8c59741fdfb
 URL:		https://wiki.gnome.org/Apps/Lightsoff
 BuildRequires:	appstream-glib
 BuildRequires:	clutter-devel >= 1.14.0
 BuildRequires:	clutter-gtk-devel >= 1.5.0
 BuildRequires:	gettext-tools >= 0.19.8
 BuildRequires:	glib2-devel >= 1:2.38.0
-BuildRequires:	gtk+3-devel >= 3.14.0
+BuildRequires:	gtk+3-devel >= 3.24
 BuildRequires:	librsvg-devel >= 1:2.32.0
 BuildRequires:	meson >= 0.43.0
 BuildRequires:	ninja >= 1.5
@@ -29,7 +29,7 @@ Requires(post,postun):	glib2 >= 1:2.38.0
 Requires:	clutter >= 1.14.0
 Requires:	clutter-gtk >= 1.5.0
 Requires:	glib2 >= 1:2.38.0
-Requires:	gtk+3 >= 3.14.0
+Requires:	gtk+3 >= 3.24
 Requires:	hicolor-icon-theme
 Requires:	librsvg >= 1:2.32.0
 Provides:	gnome-games-lightsoff = 1:%{version}-%{release}
