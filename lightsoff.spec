@@ -2,7 +2,7 @@ Summary:	GNOME Lights Off game
 Summary(pl.UTF-8):	Gra Lights Off dla GNOME
 Name:		lightsoff
 Version:	40.0.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	https://download.gnome.org/sources/lightsoff/40/%{name}-%{version}.tar.xz
