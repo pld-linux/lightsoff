@@ -1,21 +1,19 @@
 Summary:	GNOME Lights Off game
 Summary(pl.UTF-8):	Gra Lights Off dla GNOME
 Name:		lightsoff
-Version:	40.0.1
-Release:	2
+Version:	46.0
+Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
-Source0:	https://download.gnome.org/sources/lightsoff/40/%{name}-%{version}.tar.xz
-# Source0-md5:	19c681b8c4c06263161a20e46d2d7d5f
+Source0:	https://download.gnome.org/sources/lightsoff/46/%{name}-%{version}.tar.xz
+# Source0-md5:	6d5984a6a665d451d19689e05f82eda2
 URL:		https://wiki.gnome.org/Apps/Lightsoff
 BuildRequires:	appstream-glib
-BuildRequires:	clutter-devel >= 1.14.0
-BuildRequires:	clutter-gtk-devel >= 1.5.0
 BuildRequires:	gettext-tools >= 0.19.8
 BuildRequires:	glib2-devel >= 1:2.38.0
 BuildRequires:	gtk+3-devel >= 3.24
 BuildRequires:	librsvg-devel >= 1:2.32.0
-BuildRequires:	meson >= 0.50.0
+BuildRequires:	meson >= 0.56.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.736
@@ -26,8 +24,6 @@ BuildRequires:	xz
 BuildRequires:	yelp-tools
 Requires(post,postun):	gtk-update-icon-cache
 Requires(post,postun):	glib2 >= 1:2.38.0
-Requires:	clutter >= 1.14.0
-Requires:	clutter-gtk >= 1.5.0
 Requires:	glib2 >= 1:2.38.0
 Requires:	gtk+3 >= 3.24
 Requires:	hicolor-icon-theme
@@ -82,5 +78,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/metainfo/org.gnome.LightsOff.appdata.xml
 %{_desktopdir}/org.gnome.LightsOff.desktop
 %{_iconsdir}/hicolor/scalable/apps/org.gnome.LightsOff.svg
+%{_iconsdir}/hicolor/scalable/apps/org.gnome.LightsOff.Devel.svg
 %{_iconsdir}/hicolor/symbolic/apps/org.gnome.LightsOff-symbolic.svg
 %{_mandir}/man6/lightsoff.6*
